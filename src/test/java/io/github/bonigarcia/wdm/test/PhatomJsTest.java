@@ -17,10 +17,7 @@
 
 package io.github.bonigarcia.wdm.test;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
@@ -35,6 +32,7 @@ import io.github.bonigarcia.wdm.PhantomJsDriverManager;
  * @author Boni Garcia (boni.gg@gmail.com)
  * @since 1.0.0
  */
+@Ignore
 public class PhatomJsTest {
 
   private WebDriver driver;
